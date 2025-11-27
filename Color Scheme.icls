@@ -353,6 +353,14 @@
       </value>
     </option>
 	
+    <option name="KOTLIN_SYNTHETIC_EXTENSION_PROPERTY">
+      <value>
+        <option name="FOREGROUND" value="66e1f8" />
+        <option name="EFFECT_COLOR" value="66e1f8" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+	
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -369,7 +377,7 @@
     <option name="KOTLIN_SUSPEND_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="96ec3f" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="96ec3f" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -391,15 +399,12 @@
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="96ec3f" />
-        <option name="EFFECT_COLOR" value="96ec3f" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-	
     <option name="KOTLIN_DYNAMIC_PROPERTY_CALL">
       <value>
         <option name="FOREGROUND" value="66e1f8" />
-        <option name="EFFECT_COLOR" value="66e1f8" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
