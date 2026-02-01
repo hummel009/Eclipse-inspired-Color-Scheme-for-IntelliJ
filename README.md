@@ -1,4 +1,4 @@
-Yet another IntelliJ Color Scheme plugin.
+Yet another color scheme plugin for IntelliJ IDEA.
 
 # A bit  of context
 
