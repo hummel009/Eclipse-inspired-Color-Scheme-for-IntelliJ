@@ -1,0 +1,24 @@
+<idea-plugin>
+	<id>color.scheme.eclipse-inspired</id>
+	<name>Eclipse-inspired Color Scheme</name>
+	<version>1.5</version>
+	<vendor email="hummel.turbamentum@gmail.com" url="https://plugins.jetbrains.com/vendor/hummel009">Hummel009's Soft</vendor>
+	<description><![CDATA[
+	I worked in Eclipse for many years, and when I switched to IntelliJ IDEA, I realized I liked almost everything except... the editor's color scheme. Oh yeah, that was terrible - I'm used to being able to determine a fair amount of context by font color, boldness, and italics, whereas IntelliJ IDEA by default suggests, "Go ahead, hover your mouse over it or go to the declaration file! You'll find out more info there."
+
+	So, the decision to get eclipse-like color scheme came immediately after IntelliJ IDEA installation.
+
+	I found several plugins in the store, but they were inaccurate, outdated, and often didn't support Kotlin, that wonderful programming language, so similar to Java, that should be colored the same in the editor, but it isn't.
+
+	I aimed to replicate what was in Eclipse as simply and as closely as possible, and also extend it to Kotlin, based on the color scheme logic (bold is immutable, italic is static/cannot be instantiated, and so on). I don't claim perfection; the work will likely continue to be refined. I don't know if it's possible to achieve perfection, given that IntelliJ IDEA can't provide full context for some scenarios, such as constants in Kotlin, and I can't make them bold. But those are minor details. Overall, almost everything is ready, usable, and I'm sure you'll like it.
+
+	Have fun!
+	]]></description>
+	<change-notes><![CDATA[]]></change-notes>
+	<idea-version since-build="142.0"/>
+	<depends>com.intellij.modules.lang</depends>
+	<extensions defaultExtensionNs="com.intellij">
+		<bundledColorScheme path="/colors/Dark"/>
+		<bundledColorScheme path="/colors/Islands Dark"/>
+	</extensions>
+</idea-plugin>
